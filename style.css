@@ -17,6 +17,7 @@ li{
 .centerContent{
     width: 1160px;
     margin: 0 auto;
+    position: relative;
 }
 .callus
 {
@@ -70,11 +71,14 @@ li{
 }
 .logo{
     color: #222222;
-     font-family: 'Montserrat', sans-serif;
-    padding-left: 135px;
-    padding-top: 35px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: bold;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    width: 510px;
+    margin-left: -20%;
 }
 .lnorm{
     font-weight: normal;
@@ -84,10 +88,12 @@ li{
 .ave{
     color: #222222;
      font-family: 'Montserrat', sans-serif;
-    padding-left: 135px;
-    padding-top: 35px;
     font-size: 600px;
     font-weight: bold;
+    position: absolute;
+    left: -290px;
+    z-index: 1;
+    width: 1700px;
 }
 .sliderBlock{
      background-image: url(photo/photoman.jpg);
@@ -95,7 +101,6 @@ li{
     width: auto;
     height: 920px;
     background-position: left;
-     position: relative;
-     top:-66px;
-    margin: 0px auto;
+    position: relative;
+    z-index: 0;
 }
