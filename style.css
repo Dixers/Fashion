@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.header{
+    background-color: #333333;
+    width: auto;
+    height: 45px;
+}
+.centerContent{
+    width: 1160px;
+    margin: 0 auto;
+}
+.callus
+{
+   color: #fff;
+    float: right;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(to top,#00c8c8 0%, #00c8c8 100%);
+    border: 1px solid #00c8c8;
+    display: inline-block;
+     line-height: 43px;
+}
+.iconShopping{
+    color: #ffffff;
+    width: 19px;
+    height: 16px;
+    text-align: left;
+}
+.aText{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-left: 22px;
+    padding-right: 10px;
+}
+.language{
+    color:#999999;
+     padding-left: 0px;
+    line-height: 44px;
+    padding-right: 0px;
+}
+.sing{
+    padding-right: 35px;
+    float: right;
+}
+.reg{
+    padding-right: 80px;
+     float: right;
+}
+.contText{
+    width: 115px;
+    height:  23px;
+    position: relative;
+}
+.slider{
+    background-color: #f8f8f8;
+    width: auto;
+    height: 920px;
+    margin: 0px auto;
+    
+}
+.logo{
+    color: #222222;
+     font-family: 'Montserrat', sans-serif;
+    padding-left: 135px;
+    padding-top: 35px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.lnorm{
+    font-weight: normal;
+    font-style: normal;
+     padding-left: 15px;
+}
+.ave{
+    color: #222222;
+     font-family: 'Montserrat', sans-serif;
+    padding-left: 135px;
+    padding-top: 35px;
+    font-size: 600px;
+    font-weight: bold;
+}
+.sliderBlock{
+     background-image: url(photo/photoman.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 920px;
+    background-position: left;
+     position: relative;
+     top:-66px;
+    margin: 0px auto;
+}
